@@ -70,5 +70,25 @@ coefficient of X4 (GPA/IQ interaction) is small. This doesn't necessarily mean
 that there is little evidence of an interaction effect. We need to look at the 
 summary table to see the t-statistic and the associated p-value.
 
-4. 
+4.linear regression + separate cubic regression
+
+a)
+
+suppose true relationship is linear.
+
+It's hard to tell what the training RSS would be like for linear vs cubic fit
+without actually seeing it.
+
+the cubic could be lower for the cubic because it might closly align to all the 
+points, but considering the true relationship is linear, the linear model could
+fit better on the training data.
+
+b) for the test set, the linear model likely would have a lower RSS than the
+polynomial because the polynomial has likely overfit to the training data.
+
+c) If true relationship is non-linear then you'd expect lower training RSS for
+the polynomial regression as this can take into account non-linear patterns. 
+Cannot be certain unless you look at the data.
+
+d) for test, polynomial would be lower RSS for a truely non-linear.
 
