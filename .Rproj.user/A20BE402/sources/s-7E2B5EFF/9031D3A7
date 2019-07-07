@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562477622949.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1573593379",
+    "id" : "9031D3A7",
+    "lastKnownWriteTime" : 1562479931,
+    "last_content_update" : 1562479931276,
+    "path" : "F:/repos/ISLR/chapter3/exercises/exercises.R",
+    "project_path" : "chapter3/exercises/exercises.R",
+    "properties" : {
+        "cursorPosition" : "2,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
